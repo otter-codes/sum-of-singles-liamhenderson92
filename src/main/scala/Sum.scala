@@ -6,11 +6,8 @@ object Sum extends App {
     val duplicateNumbers = input.diff(allNumbers)
     val uniqueNumbers = allNumbers.diff(duplicateNumbers)
 
-    println(uniqueNumbers)
     uniqueNumbers.sum
 
   }
-
-  println(sumUp(List(4,5,7,5,4,8)))
-
+  
 }
